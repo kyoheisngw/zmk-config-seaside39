@@ -48,13 +48,13 @@
 &kp Q           &kp W      &kp E         &kp R             &kp T                                                &kp Y            &kp U  &kp I     &kp O     &kp P
 &kp A           &kp S      &kp D         &kp F             &kp G                                                &kp H            &kp J  &kp K     &kp L     &kp ENTER
 &kp Z           &kp X      &kp C         &kp V             &kp B                                                &kp N            &kp M  &mkp MB1  &mkp MB3  &mkp MB2
-&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_WIN TAB  &lt 1 SPACE  &lt 2 LANG2      &mt RIGHT_SHIFT LANG1  &lt 3 BACKSPACE                             &lt 5 ESCAPE
+&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_WIN TAB  &lt 4 SPACE  &lt 3 LANG2      &mt RIGHT_SHIFT LANG1  &lt 4 BACKSPACE                             &lt 5 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        SYMBOL {
+        NUMBER {
             bindings = <
 &kp F1             &kp F2        &kp F3         &kp F4        &kp F5                               &kp F8        &kp F9         &kp F10           &kp F11               &kp GREATER_THAN
 &kp LS(SEMICOLON)  &kp MINUS     &kp RS(COLON)  &kp SLASH     &kp F6                               &kp F7        &kp LS(MINUS)  &kp LS(NUMBER_5)  &kp NON_US_BACKSLASH  &kp LS(NUMBER_4)
@@ -63,7 +63,7 @@
             >;
         };
 
-        NUM {
+        SYUMBL {
             bindings = <
 &trans  &kp F9  &kp F10  &kp F11  &kp F12                      &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS         &kp MINUS
 &trans  &kp F5  &kp F6   &kp F7   &kp F8                       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK     &kp SLASH
