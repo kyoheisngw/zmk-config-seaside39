@@ -46,8 +46,8 @@
         default_layer {
             bindings = <
 &kp Q      &kp W         &kp E         &kp R           &kp T                                      &kp Y      &kp U  &kp I     &kp O     &kp P
-&kp A      &kp S         &kp D         &kp F           &kp G                                      &kp H      &kp J  &kp K     &kp L     &kp ESCAPE
-&kp Z      &kp X         &kp C         &kp V           &kp B                                      &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 3 CAPSLOCK
+&kp A      &kp S         &kp D         &kp F           &kp G                                      &kp H      &kp J  &kp K     &kp L     &kp CAPSLOCK
+&kp Z      &kp X         &kp C         &kp V           &kp B                                      &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 3 ESCAPE
 &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 1 SPACE  &lt 2 TAB      &kp BACKSPACE  &kp ENTER                             &kp DELETE
             >;
 
@@ -56,10 +56,10 @@
 
         NUMBER {
             bindings = <
-&kp F1             &kp F2        &kp F3         &kp F4        &kp F5                            &kp F8        &kp F9         &kp F10           &kp F11               &kp GREATER_THAN
-&kp LS(SEMICOLON)  &kp MINUS     &kp RS(COLON)  &kp SLASH     &kp F6                            &kp F7        &kp LS(MINUS)  &kp LS(NUMBER_5)  &kp NON_US_BACKSLASH  &kp LS(NUMBER_4)
-&kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9          &kp NUMBER_0
-&trans             &trans        &trans         &trans        &trans        &trans      &trans  &trans                                                               &trans
+&kp F1        &kp F2        &kp F3         &kp F4        &kp F5                            &kp F8        &kp F9         &kp F10           &kp F11       &kp GREATER_THAN
+&kp PLUS      &kp MINUS     &kp RS(COLON)  &kp SLASH     &kp F6                            &kp F7        &kp LS(MINUS)  &kp LS(NUMBER_5)  &kp LS(DLLR)  &kp BSLH
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0
+&trans        &trans        &trans         &trans        &trans        &trans      &trans  &trans                                                       &trans
             >;
         };
 
