@@ -56,10 +56,10 @@
 
         NUMBER {
             bindings = <
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                            &kp F8        &kp F9         &kp F10        &kp F11       &kp GREATER_THAN
-&kp LS(PLUS)  &kp MINUS     &kp LS(STAR)  &kp SLASH     &kp F6                            &kp F7        &kp LS(EQUAL)  &kp LS(PRCNT)  &kp LS(DLLR)  &kp BSLH
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                    &trans
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5                            &kp F8        &kp F9        &kp F10       &kp F11       &kp GREATER_THAN
+&kp PLUS      &kp MINUS     &kp ASTERISK  &kp SLASH     &kp F6                            &kp F7        &kp EQUAL     &kp PERCENT   &kp DOLLAR    &kp BACKSLASH
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                  &trans
             >;
         };
 
