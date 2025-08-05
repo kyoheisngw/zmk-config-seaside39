@@ -66,7 +66,7 @@
         SYMBOL {
             bindings = <
 &kp LS(INT3)  &kp LS(N6)  &kp POUND      &kp LS(EQUAL)  &kp EXCL                        &kp QMARK   &kp EQUAL          &kp PRCNT    &kp LBKT      &kp INT1
-&trans        &kp RBKT    &kp LS(COMMA)  &kp LS(RBKT)   &kp LS(N8)                      &kp LS(N9)  &kp LS(BACKSLASH)  &kp LS(DOT)  &kp NUHS      &trans
+&kp SLASH     &kp RBKT    &kp LS(COMMA)  &kp LS(RBKT)   &kp LS(N8)                      &kp LS(N9)  &kp LS(BACKSLASH)  &kp LS(DOT)  &kp NUHS      &trans
 &kp LS(LBKT)  &kp MINUS   &kp LS(N7)     &kp SEMI       &kp COMMA                       &kp DOT     &kp SQT            &kp LS(N2)   &kp LS(INT1)  &trans
 &trans        &trans      &trans         &trans         &trans      &trans      &trans  &trans                                                    &trans
             >;
