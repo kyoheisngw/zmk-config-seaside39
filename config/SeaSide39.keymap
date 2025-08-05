@@ -46,8 +46,8 @@
         default_layer {
             bindings = <
 &kp Q      &kp W         &kp E         &kp R           &kp T                                      &kp Y      &kp U  &kp I     &kp O     &kp P
-&kp A      &kp S         &kp D         &kp F           &kp G                                      &kp H      &kp J  &kp K     &kp L     &lt 6 ESCAPE
-&kp Z      &kp X         &kp C         &kp V           &kp B                                      &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 5 LANG1
+&kp A      &kp S         &kp D         &kp F           &kp G                                      &kp H      &kp J  &kp K     &kp L     &kp ESCAPE
+&kp Z      &kp X         &kp C         &kp V           &kp B                                      &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 3 CAPSLOCK
 &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 1 SPACE  &lt 2 TAB      &kp BACKSPACE  &kp ENTER                             &kp DELETE
             >;
 
@@ -56,57 +56,28 @@
 
         NUMBER {
             bindings = <
-&kp F1             &kp F2        &kp F3         &kp F4        &kp F5                               &kp F8        &kp F9         &kp F10           &kp F11               &kp GREATER_THAN
-&kp LS(SEMICOLON)  &kp MINUS     &kp RS(COLON)  &kp SLASH     &kp F6                               &kp F7        &kp LS(MINUS)  &kp LS(NUMBER_5)  &kp NON_US_BACKSLASH  &kp LS(NUMBER_4)
-&kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                         &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9          &kp NUMBER_0
-&trans             &trans        &trans         &trans        &trans        &trans      &kp COMMA  &kp PERIOD                                                           &kp ESC
+&kp F1             &kp F2        &kp F3         &kp F4        &kp F5                            &kp F8        &kp F9         &kp F10           &kp F11               &kp GREATER_THAN
+&kp LS(SEMICOLON)  &kp MINUS     &kp RS(COLON)  &kp SLASH     &kp F6                            &kp F7        &kp LS(MINUS)  &kp LS(NUMBER_5)  &kp NON_US_BACKSLASH  &kp LS(NUMBER_4)
+&kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9          &kp NUMBER_0
+&trans             &trans        &trans         &trans        &trans        &trans      &trans  &trans                                                               &trans
             >;
         };
 
-        SYUM {
+        SYMBOL {
             bindings = <
-&trans  &kp F9  &kp F10  &kp F11  &kp F12                      &kp N7        &kp NUMBER_8  &kp NUMBER_9  &kp PLUS         &kp MINUS
-&trans  &kp F5  &kp F6   &kp F7   &kp F8                       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK     &kp SLASH
-&trans  &kp F1  &kp F2   &kp F3   &kp F4                       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE  &kp COLON
-&trans  &trans  &trans   &trans   &trans   &trans      &trans  &kp NUMBER_0                                               &kp PERIOD
-            >;
-        };
-
-        ARROW {
-            bindings = <
-&kp ESCAPE      &mkp MB4                &kp UP_ARROW    &mkp MB5                 &trans                       &kp LG(LEFT_ARROW)          &kp LA(LEFT_ARROW)      &kp UP_ARROW    &kp RA(RIGHT_ARROW)      &kp RG(RIGHT_ARROW)
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END                      &kp LC(LS(TAB))             &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp RC(TAB)
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans                       &kp LA(LG(LC(LEFT_ARROW)))  &kp LA(LG(LEFT_ARROW))  &kp LA(LG(F))   &kp RG(RA(RIGHT_ARROW))  &kp RA(RC(RG(RIGHT_ARROW)))
-&trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &kp BACKSPACE                                                                                &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        };
-
-        MOUSE {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans                      &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&kp LS(PIPE)   &kp LS(AMPS)  &kp LS(POUND)  &kp LS(TILDE)  &kp LS(EXCL)                      &kp LS(QMARK)  &kp CARET   &kp LS(PRCNT)  &kp AT_SIGN    &kp SLASH
+&trans         &kp LBKT      &kp LS(LBRC)   &kp LS(LT)     &kp LS(LPAR)                      &kp LS(RPAR)   &kp LS(GT)  &kp LS(RBRC)   &kp RBKT       &trans
+&kp LS(GRAVE)  &kp MINUS     &kp LS(SQT)    &kp SEMI       &kp COMMA                         &kp DOT        &kp COLON   &kp LS(DQT)    &kp LS(UNDER)  &trans
+&trans         &trans        &trans         &trans         &trans        &trans      &trans  &trans                                                   &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &kp ENTER  &trans  &trans                                            &trans            &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans  &trans                                            &trans            &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans  &trans                                            &trans            &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans  &kp LS(LG(N5))  &kp LS(LG(N4))      &kp LC(DOWN)  &kp LC(UP_ARROW)                          &trans
-            >;
-        };
-
-        CONFIG {
-            bindings = <
-&bt BT_CLR_ALL  &bt BT_CLR    &trans        &trans        &trans                            &trans       &trans  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &trans                            &trans       &trans  &trans  &trans  &trans
-&bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &bootloader  &trans  &trans  &trans  &trans
-&trans          &trans        &trans        &trans        &trans        &trans      &trans  &trans                               &trans
+&trans        &trans        &trans        &trans        &trans                            &trans  &kp HOME        &trans          &kp PAGE_UP      &trans
+&trans        &trans        &trans        &trans        &trans                            &trans  &kp END         &kp UP_ARROW    &kp PAGE_DOWN    &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                   &trans
             >;
         };
     };
