@@ -56,19 +56,19 @@
 
         NUMBER {
             bindings = <
-&kp F1           &kp F2        &kp F3            &kp F4        &kp F5                            &kp F8        &kp F9            &kp F10       &kp F11       &kp F12
+&kp F1        &kp F2        &kp F3         &kp F4        &kp F5                            &kp F8        &kp F9         &kp F10       &kp F11       &kp F12
 &kp LS(SEMI)  &kp MINUS     &kp LS(COLON)  &kp SLASH     &kp F6                            &kp F7        &kp LS(MINUS)  &kp PERCENT   &kp DOLLAR    &kp INT3
-&kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5                      &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&trans        &trans        &trans         &trans        &trans        &trans      &trans  &trans                                                   &trans
             >;
         };
 
         SYMBOL {
             bindings = <
-&kp LS(YEN)  &kp LS(N6)  &kp POUND         &kp LS(CARET)  &kp EXCL                      &kp QMARK   &kp EQUAL        &kp PRCNT       &kp LBKT         &kp INT1
-&trans          &kp RBKT    &kp LS(COMMA)  &kp LS(LBKT)   &kp LS(N8)                    &kp LS(N9)  &kp LS(RBKT)  &kp LS(DOT)  &kp NUHS         &trans
-&kp LS(AT)   &kp MINUS   &kp LS(N7)        &kp SEMI          &kp COMMA                     &kp DOT     &kp SQT          &kp LS(N2)      &kp LS(BSLH)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp LS(YEN)  &kp LS(N6)  &kp POUND      &kp LS(CARET)  &kp EXCL                        &kp QMARK   &kp EQUAL     &kp PRCNT    &kp LBKT      &kp INT1
+&trans       &kp RBKT    &kp LS(COMMA)  &kp LS(LBKT)   &kp LS(N8)                      &kp LS(N9)  &kp LS(RBKT)  &kp LS(DOT)  &kp NUHS      &trans
+&kp LS(AT)   &kp MINUS   &kp LS(N7)     &kp SEMI       &kp COMMA                       &kp DOT     &kp SQT       &kp LS(N2)   &kp LS(BSLH)  &trans
+&trans       &trans      &trans         &trans         &trans      &trans      &trans  &trans                                               &trans
             >;
         };
 
@@ -92,10 +92,10 @@
 
         SCROLL {
             bindings = <
-&trans        &trans        &trans        &trans        &trans                            &trans  &kp HOME        &trans          &kp PAGE_UP      &trans
-&trans        &trans        &trans        &trans        &trans                            &trans  &kp END         &kp UP_ARROW    &kp PAGE_DOWN    &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                   &trans
+&trans        &trans        &trans        &trans        &trans                            &mkp MB3  &kp HOME        &trans          &kp PAGE_UP      &trans
+&trans        &trans        &trans        &trans        &trans                            &mkp MB4  &kp END         &kp UP_ARROW    &kp PAGE_DOWN    &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &mkp MB5  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                     &trans
             >;
         };
     };
