@@ -28,6 +28,30 @@
 
             label = "BT_WIN";
         };
+
+        bt_mac: bt_mac {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 1>, <&macro_wait_time 200>, <&to 4>;
+
+            label = "BT_MAC";
+        };
+
+        bt_ipad: bt_ipad {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 2>, <&macro_wait_time 200>, <&to 8>;
+
+            label = "BT_IPAD";
+        };
+
+        bt_iphone: bt_iphone {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 3>, <&macro_wait_time 200>, <&to 12>;
+
+            label = "BT_IPHONE";
+        };
     };
 
     keymap {
