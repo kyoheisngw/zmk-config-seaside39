@@ -97,10 +97,10 @@
 
         MAC_DEFAULT_LAYER {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R           &kp T                                      &kp Y      &kp U  &kp I     &kp O     &kp P
-&kp A             &kp S         &kp D         &kp F           &kp G                                      &kp H      &kp J  &kp K     &kp L     &kp CAPS
-&kp Z             &kp X         &kp C         &kp V           &kp B                                      &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 7 ESCAPE
-&kp LEFT_COMMAND  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 5 SPACE  &lt 6 TAB      &kp BACKSPACE  &kp ENTER                             &kp DELETE
+&kp Q             &kp W      &kp E         &kp R           &kp T                                      &kp Y      &kp U  &kp I     &kp O     &kp P
+&kp A             &kp S      &kp D         &kp F           &kp G                                      &kp H      &kp J  &kp K     &kp L     &kp CAPS
+&kp Z             &kp X      &kp C         &kp V           &kp B                                      &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 7 ESCAPE
+&kp LEFT_COMMAND  &kp GLOBE  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 5 SPACE  &lt 6 TAB      &kp BACKSPACE  &kp ENTER                             &kp DELETE
             >;
         };
 
@@ -133,10 +133,10 @@
 
         IPAD_DEFAULT_LAYER {
             bindings = <
-&kp Q         &kp W         &kp E         &kp R           &kp T                                       &kp Y      &kp U  &kp I     &kp O     &kp P
-&kp A         &kp S         &kp D         &kp F           &kp G                                       &kp H      &kp J  &kp K     &kp L     &kp CAPS
-&kp Z         &kp X         &kp C         &kp V           &kp B                                       &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 11 ESCAPE
-&kp LEFT_GUI  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 9 SPACE  &lt 10 TAB      &kp BACKSPACE  &kp ENTER                             &kp DELETE
+&kp Q         &kp W      &kp E         &kp R           &kp T                                       &kp Y      &kp U  &kp I     &kp O     &kp P
+&kp A         &kp S      &kp D         &kp F           &kp G                                       &kp H      &kp J  &kp K     &kp L     &kp CAPS
+&kp Z         &kp X      &kp C         &kp V           &kp B                                       &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 11 ESCAPE
+&kp LEFT_GUI  &kp GLOBE  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 9 SPACE  &lt 10 TAB      &kp BACKSPACE  &kp ENTER                             &kp DELETE
             >;
         };
 
@@ -169,10 +169,10 @@
 
         IPHONE_DEFAULT_LAYER {
             bindings = <
-&kp Q         &kp W         &kp E         &kp R           &kp T                                        &kp Y      &kp U  &kp I     &kp O     &kp P
-&kp A         &kp S         &kp D         &kp F           &kp G                                        &kp H      &kp J  &kp K     &kp L     &kp CAPS
-&kp Z         &kp X         &kp C         &kp V           &kp B                                        &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 15 ESCAPE
-&kp LEFT_GUI  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 13 SPACE  &lt 14 TAB      &kp BACKSPACE  &kp ENTER                             &kp DELETE
+&kp Q         &kp W      &kp E         &kp R           &kp T                                        &kp Y      &kp U  &kp I     &kp O     &kp P
+&kp A         &kp S      &kp D         &kp F           &kp G                                        &kp H      &kp J  &kp K     &kp L     &kp CAPS
+&kp Z         &kp X      &kp C         &kp V           &kp B                                        &kp N      &kp M  &mkp MB1  &mkp MB2  &lt 15 ESCAPE
+&kp LEFT_GUI  &kp GLOBE  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 13 SPACE  &lt 14 TAB      &kp BACKSPACE  &kp ENTER                             &kp DELETE
             >;
         };
 
