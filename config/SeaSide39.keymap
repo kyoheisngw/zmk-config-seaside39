@@ -96,10 +96,10 @@
 
         WIN_SCROLL {
             bindings = <
-&bt_win       &bt_mac     &bt_ipad  &bt_iphone  &bt_win2                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
-&bt BT_SEL 4  &bt BT_CLR  &trans    &trans      &trans                        &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
-&trans        &trans      &trans    &trans      &trans                        &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans        &trans      &trans    &trans      &trans    &trans      &trans  &trans                                                          &trans
+&bt_win  &bt_mac  &bt_ipad  &bt_iphone  &bt_win2                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
+&trans   &trans   &trans    &trans      &trans                        &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
+&trans   &trans   &trans    &trans      &trans                        &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &trans   &trans    &trans      &trans    &trans      &trans  &trans                                                          &trans
             >;
         };
 
