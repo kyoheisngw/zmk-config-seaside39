@@ -48,9 +48,17 @@
         bt_iphone: bt_iphone {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 3>, <&macro_wait_time 200>, <&to 12>;
+            bindings = <&bt BT_SEL 3>, <&macro_wait_time 200>, <&to 13>;
 
             label = "BT_IPHONE";
+        };
+
+        bt_win2: bt_win2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 4>, <&macro_wait_time 200>, <&to 0>;
+
+            label = "BT_WIN2";
         };
     };
 
@@ -88,10 +96,10 @@
 
         WIN_SCROLL {
             bindings = <
-&bt_win  &bt_mac  &bt_ipad  &bt_iphone  &trans                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
-&trans   &trans   &trans    &trans      &trans                      &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
-&trans   &trans   &trans    &trans      &trans                      &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &trans   &trans    &trans      &trans  &trans      &trans  &trans                                                          &trans
+&bt_win  &bt_mac  &bt_ipad  &bt_iphone  &bt_win2                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
+&trans   &trans   &trans    &trans      &trans                        &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
+&trans   &trans   &trans    &trans      &trans                        &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &trans   &trans    &trans      &trans    &trans      &trans  &trans                                                          &trans
             >;
         };
 
@@ -124,10 +132,10 @@
 
         MAC_SCROLL {
             bindings = <
-&bt_win  &bt_mac  &bt_ipad  &bt_iphone  &trans                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
-&trans   &trans   &trans    &trans      &trans                      &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
-&trans   &trans   &trans    &trans      &trans                      &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &trans   &trans    &trans      &trans  &trans      &trans  &trans                                                          &trans
+&bt_win  &bt_mac  &bt_ipad  &bt_iphone  &bt_win2                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
+&trans   &trans   &trans    &trans      &trans                        &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
+&trans   &trans   &trans    &trans      &trans                        &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &trans   &trans    &trans      &trans    &trans      &trans  &trans                                                          &trans
             >;
         };
 
@@ -160,10 +168,10 @@
 
         IPAD_SCROLL {
             bindings = <
-&bt_win  &bt_mac  &bt_ipad  &bt_iphone  &trans                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
-&trans   &trans   &trans    &trans      &trans                      &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
-&trans   &trans   &trans    &trans      &trans                      &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &trans   &trans    &trans      &trans  &trans      &trans  &trans                                                          &trans
+&bt_win  &bt_mac  &bt_ipad  &bt_iphone  &bt_win2                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
+&trans   &trans   &trans    &trans      &trans                        &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
+&trans   &trans   &trans    &trans      &trans                        &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &trans   &trans    &trans      &trans    &trans      &trans  &trans                                                          &trans
             >;
         };
 
@@ -196,10 +204,10 @@
 
         IPHONE_SCROLL {
             bindings = <
-&bt_win  &bt_mac  &bt_ipad  &bt_iphone  &trans                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
-&trans   &trans   &trans    &trans      &trans                      &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
-&trans   &trans   &trans    &trans      &trans                      &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans   &trans   &trans    &trans      &trans  &trans      &trans  &trans                                                          &trans
+&bt_win  &bt_mac  &bt_ipad  &bt_iphone  &bt_win2                      &kp PAGE_UP    &trans          &trans          &trans           &kp HOME
+&trans   &trans   &trans    &trans      &trans                        &kp PAGE_DOWN  &mkp MB4        &kp UP_ARROW    &mkp MB5         &kp END
+&trans   &trans   &trans    &trans      &trans                        &trans         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans   &trans   &trans    &trans      &trans    &trans      &trans  &trans                                                          &trans
             >;
         };
     };
